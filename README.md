@@ -5,6 +5,7 @@
 **Bet365 bet placement as an HTTP service.**
 No browser. No chromedriver. No UI selectors. JSON in, bets out.
 
+[![Stars](https://img.shields.io/github/stars/cr4all/bet365-placebet-api?style=for-the-badge&logo=github&logoColor=white&label=STARS&color=yellow)](https://github.com/cr4all/bet365-placebet-api/stargazers)
 [![Docs](https://img.shields.io/badge/API%20Console-live-0A66C2?style=for-the-badge&logo=swagger&logoColor=white)](https://linegate.com/docs)
 [![Telegram](https://img.shields.io/badge/Telegram-@cr4all__dev-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/cr4all_dev)
 [![REST](https://img.shields.io/badge/API-REST%20v1-111111?style=for-the-badge)](https://linegate.com/docs)
@@ -16,6 +17,22 @@ No browser. No chromedriver. No UI selectors. JSON in, bets out.
 ---
 
 > **TL;DR** — `POST /v1/bet365/sessions` once to log an account in (QR handled server-side), then `POST /v1/bet365/sessions/{id}/bets` for every bet slip you want placed. Keepalive, balance, open bets, history, cashout — all over HTTP.
+
+---
+
+## ⭐ Star it, get perks
+
+If this repo saves you from maintaining browser automation, **a star helps other betting-bot devs find it** — and we make it worth your click:
+
+| Perk | How to claim |
+|------|--------------|
+| 🎁 **+7 days free trial** on your first session slot | ⭐ [Star the repo](https://github.com/cr4all/bet365-placebet-api/stargazers) and DM [@cr4all_dev](https://t.me/cr4all_dev) with your GitHub username |
+| ⚡ **Priority onboarding & support** — starred users jump the queue | same DM |
+| 🚀 **Early access** to new endpoints & features (betbuilder, new regions, SDKs) | announced to stargazers first |
+| 🤖 **Free example bot** (Python / Node) to bootstrap your integration | DM us and mention "star perk" |
+| 🗳️ **Roadmap vote** — stars decide what ships next | tell us your priority on Telegram |
+
+⭐ **[Star bet365-placebet-api](https://github.com/cr4all/bet365-placebet-api/stargazers)** — one click, then say hi on Telegram to claim. Already starred? The perks still apply.
 
 ---
 
@@ -333,5 +350,7 @@ This service is intended only for users operating accounts they own or are expli
 **bet365-placebet-api** — placement · QR · keepalive · cashout · history
 
 `https://linegate.com` · [docs](https://linegate.com/docs) · [@cr4all_dev](https://t.me/cr4all_dev)
+
+If this repo helped you, a ⭐ helps the next dev find it → **[Star it](https://github.com/cr4all/bet365-placebet-api/stargazers)**
 
 </div>
